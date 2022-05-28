@@ -1,0 +1,636 @@
+    *
+    {
+        
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+   /* html,body
+    {
+        width: 100%;
+        overflow-x: hidden;
+    }*/
+
+    /*Banner starts*/
+
+    .banner
+    {
+        height: 680px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.781)), url("./background\ img.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;            
+    }
+
+    .banner-content
+    {
+        text-align: center;
+    }
+
+    .banner .h1
+    {
+        font-size: 90px;
+        font-family: Segoe Script;
+    }
+
+    .banner .h2
+    {
+        font-size: 40px;
+        word-spacing: 2px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-family: "Raleway", sans-serif;
+    }
+    .banner .p
+    {
+        margin-bottom: 20px;
+        font-size: 23px;
+        font-weight: 100;
+
+    }
+
+
+    .banner .btn1, .banner .btn2
+    {
+        color: white;
+        font-size: 18px;
+        width: 160px;
+        height: 45px;
+        font-weight: 580;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        transition: background-color .4s, border .4s ;
+
+    }
+
+    .banner .btn1
+    {
+        background-color: rgb(55, 198, 255);
+        border: none;
+        color: white;
+    }
+
+    .banner .btn1:hover
+    {
+        background-color: transparent;
+        border: 2px solid white;
+    }
+
+    .banner .btn2
+    {
+        background-color: transparent;
+        border: 1.5px solid white;
+    }
+
+
+    .banner .btn2:hover
+    {
+        background-color: rgb(55, 198, 255);
+    }
+
+
+    /* Banner Ends  */
+
+    /*Nav Bar Starts*/
+    nav
+    {
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.911);
+        padding: 20px 7px 5px 0px;
+        position: sticky;
+        padding-bottom: 25px;
+        z-index: 1;
+    }
+
+    nav ul li
+    {
+        display: inline
+        
+    }
+    nav ul
+    {
+        display: inline;
+    }
+    nav li a
+    {
+        font-weight: 200;
+        color: white;
+        transition: color .5s;
+        padding-top: 5px;  
+        font-size: 15px;        
+    }
+    nav a
+    {
+        margin-left: 20px;
+        text-decoration: none;
+        color: white;
+        
+    }
+    .brandlogo
+    {
+        font-family:segoe Script;
+        font-size: 40px;
+        margin-left: 85px;
+    }
+    .home
+    {
+        margin-left: 450px;
+    }
+
+    nav li a:hover
+    {
+        color: rgb(55, 198, 255);   
+    }
+
+    /*Nav Bar Ends*/
+
+
+    /* About US Starts*/
+    .aboutus .aboutus-h1, .aboutus .aboutus-p 
+    {
+        text-align: center;
+
+    }
+    .aboutus-h1
+    {
+        margin-top: 40px;
+        font-weight: 600;
+    }
+    .aboutus hr
+    {
+        height: 2.5px;
+        width: 60px;
+        margin: 20px auto;
+        background-color:rgb(55, 198, 255);
+        border: none;
+    }
+    .aboutus-p
+    {
+        margin-bottom: 40px;
+        color:rgba(12, 12, 12, 0.63)
+    }
+    .aboutus-child
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .aboutus-img
+    {
+        width: 50%;
+        margin: 20px;
+    }
+    .aboutus-img img
+    {
+        height: 450px;
+        width: 100%;
+    }
+    .aboutus-content
+    {
+        width: 50%;
+        margin: 20px;
+    }
+    .aboutus-content .abcontent-h1
+    {
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+    }
+    .abcontent-p
+    {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 25px;
+        color: rgba(12, 12, 12, 0.63);
+    }
+    /* About US Ends*/
+
+    /*Service starts*/
+    .service
+    {
+        text-align: center;    
+        background-image: linear-gradient(rgba(255, 255, 255, 0.842),rgba(255, 255, 255, 0.795)), url(https://bootstrapmade.com/demo/templates/Imperial/assets/img/services-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        padding-top: 50px;
+
+    }
+    .service hr
+    {
+        width: 60px;
+        height: 2.5px;
+        margin: 20px auto;  
+        border: none;
+        background-color:rgb(55, 198, 255);    
+    }
+    .service-p
+    {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 25px;
+        color: rgba(12, 12, 12, 0.63);
+        font-size: 18px;
+    }
+    .service-child
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .service-info
+    {
+       width: 400px;
+       padding: 20px;
+       height: 250px;
+       margin: 20px;
+       justify-content: space-around;
+       display: flex;
+       align-items: flex-start;
+       margin-top: -20px;
+    
+    }
+    .service-icon
+    {
+        margin: 5px;
+        flex-basis: 150px;
+        margin-top: 15px;
+       
+    }
+
+    .service-content
+    {
+        margin: 5px;
+        margin-left: 10px;
+    }
+    .service-icon i
+    {
+        height: 80px;
+        width: 80px;
+        color: white;
+        background-color:rgb(55, 198, 255) ;
+        padding: 23px 23px;
+        border-radius: 100%;
+        justify-content: center;
+        transition: all .25s;
+    }
+    .fa-briefcase 
+    {
+        font-size: 35px;
+    }
+    .fa-tasks
+    {
+        font-size: 35px;
+    }
+    .fa-chart-bar
+    {
+        font-size: 35px;
+    }
+    .fa-binoculars
+    {
+        font-size: 35px;
+    }
+    .fa-sun
+    {
+        font-size: 35px;
+    }
+    .fa-calendar-alt
+    {
+        font-size: 35px;
+    }
+    .service-content-h1
+    {
+        font-size: 24px;
+        font-weight: 650;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 5px;
+    }
+    .service-info:hover .service-icon i
+    {
+       background-color: transparent;
+       border: 2px solid rgb(55, 198, 255) ;
+       color:rgb(55, 198, 255) ;
+    }
+    /*Service Ends*/
+
+    /*Subscribe Starts*/
+
+    .subscribe
+    {
+        height: 300px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.568)), url(https://bootstrapmade.com/demo/templates/Imperial/assets/img/subscribe-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .sub-text
+    {
+        margin: 80px;
+        width: 800px;
+        margin-top: 100px;
+    }
+    .sub-text p
+    {
+        margin-top: 15px;
+    }
+    .sub-btn
+    {
+        margin: 80px;
+    }
+    .sub-btn button
+    {
+        font-size: 18px;
+        font-weight: 450;
+        background: transparent;
+        color: white;
+        border: 2.1px solid white;
+        border-radius: 3px;
+        width: 200px;
+        padding: 7px 5px;
+        text-align: center;
+        letter-spacing: 1px;
+        transition: all .5s;
+        margin-top: 50px;
+    }
+    .sub-btn button:hover
+    {
+        border: none;
+        background-color:rgb(55, 198, 255) ;
+        border: 2.1px solid rgb(55, 198, 255);
+    }
+       
+    /*Subscribe Ends*/
+
+    /*Porfolio starts*/
+    
+    .portfolio
+    {
+        margin: 50px;
+    }
+
+    .portfolio h1, .portfolio p
+    {
+        text-align: center;
+    }
+    
+    .portfolio p
+    {
+        color: rgba(12, 12, 12, 0.63);
+    }
+    .portfolio hr
+    {
+        width: 70px;
+        height: 2.5px;
+        margin: 20px auto;
+        border: none;
+        background-color: rgb(55, 198, 255);
+    }
+    .portfolio-child
+    {
+        
+        display: flex;
+        flex-wrap: wrap;  
+        justify-content: center;
+
+    }
+    .portfolio-image img 
+    {
+        height: 330px;
+        width: 370px;
+        padding: 5px;
+        margin: 15px;
+
+    }
+
+    .portfolio-image
+    {
+        position: relative;
+        
+    }
+
+    .img-app
+    {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        height: 90px;
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 10px;
+        background-color: rgba(255, 255, 255, 0.555);
+        visibility: hidden;
+        transition: all .2s;
+    }
+
+    .portfolio-image:hover .img-app
+    {
+        visibility: visible;
+    }
+
+    /*Porfolio Ends*/
+
+    /*Testimonials Starts*/
+    .testimonials
+    {
+        width: 100%;
+        background-color:rgba(211, 211, 211, 0.479);
+    }
+    .testimonials h1
+    {
+        padding-top: 50px;
+    }
+    .testimonials-h-p
+
+    {
+        text-align: center  ;
+    }
+
+    .testimonials-h-p p
+    {
+        color: rgba(12, 12, 12, 0.63);
+    }
+    .testimonials hr
+    {
+        margin: 20px auto;
+        width: 80px;
+        height: 2.5px;
+        border: none;
+        background-color:rgb(55, 198, 255);
+    }
+
+    .testimonials-content img
+    {
+        border-radius: 100%;
+        height: 250px;
+        width: 250px;
+        border: 5px solid white;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+
+    .testimonials-content h2
+    {
+        color: rgb(55, 198, 255);
+        font-weight: 700;
+        margin-left: 117px;
+    }
+    .testimonials-content p
+    {
+        margin-left: 165px;
+    }
+    .testimonials-content
+    {
+        display: flex;      
+    }
+    .text
+    {
+        height: 150px;
+        width: 63%;
+        background-color: rgba(255, 255, 255, 0.596);
+        margin-left: 80px;
+        margin-top: 100px;
+        text-align: justify;
+        border-radius: 5px;
+    }
+    .text p
+    {
+        margin: 50px;
+        color:rgba(12, 12, 12, 0.63)
+    }
+
+    .test-img p
+    {
+        color: rgba(12, 12, 12, 0.63);
+
+    }
+    .test-img2 p
+    {
+        padding-bottom: 60px;
+        color: rgba(12, 12, 12, 0.63);
+    }
+
+    .fa-quote-left,.fa-quote-right
+    {
+        font-size:30px ;
+        color: rgba(152, 226, 255, 0.685);
+    }
+
+    /*Testimonials Ends*/
+
+
+    /*OUR TEAM STARTS*/
+
+    .team
+    {
+    
+        width: 100%;
+        height: 700px;
+    }
+
+    .team h1 ,.team-h-p p
+    {
+        text-align: center;
+    }
+
+    .team-child
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 37px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .team h1
+    {
+        margin-top: 75px;
+    }
+
+
+    .team-h-p p
+    {
+        color: rgba(12, 12, 12, 0.63);
+    }
+    .team hr
+    {
+        height: 2.5px;
+        width: 60px;
+        border: none;
+        background-color: rgb(55, 198, 255);
+        margin: 20px auto;
+    }
+
+    .team-img img
+    {
+        height: 280px;
+        width: 280px;
+    }
+    .team-content h2
+    {
+        color: rgba(12, 12, 12, 0.63);
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+    }
+    .team-content h2, .team-content p
+    {
+        text-align: center;
+    }
+    .team-content p
+    {
+        color: rgba(12, 12, 12, 0.63);
+    }
+    .team-content i
+    {
+        margin: 5px;
+    }
+    .team-icons
+    {
+        margin-left: 80px;
+        margin-top: 5px;
+        color:rgba(12, 12, 12, 0.63) ;
+        transition: all .5s;
+    }
+    .fa-twitter:hover
+    {
+        color: rgb(55, 198, 255);
+    }
+    .fa-facebook:hover
+    {
+        color: rgb(55, 198, 255);
+    }
+    .fa-instagram:hover
+    {
+        color: rgb(55, 198, 255);
+    }
+    .fa-linkedin:hover
+    {
+        color: rgb(55, 198, 255);
+    }
+    /*OUR TEAM ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
